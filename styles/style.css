@@ -1010,10 +1010,15 @@ body {
               box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1); }
       body.cv-boxed .cv-page .wrap {
         padding-left: 248px;
-        max-width: none; }
-        html[dir="rtl"] body.cv-boxed .cv-page .wrap {
-          padding-right: 248px;
-          padding-left: 32px; } }
+        padding-bottom: 32px;
+        max-width: none; 
+      }
+      html[dir="rtl"] body.cv-boxed .cv-page .wrap {
+        padding-right: 248px;
+        padding-left: 32px; 
+        padding-bottom: 32px;
+      } 
+    }
 
 /**
 * Wrap helper
@@ -1393,7 +1398,7 @@ ol {
   color: #9da2a4;
   border-top: 1px solid #e7e9e9;
   padding: 32px 0 0;
-  margin: 128px 0 32px 0; }
+  margin: 32px 0 32px 0; }
 
 /**
 * Slogan
@@ -1562,7 +1567,7 @@ ol {
     margin-top: 32px; }
     @media (min-width: 740px) {
       .cv-contact-form label {
-        text-align: right;
+        text-align: left;
         margin-top: 16px; }
         html[dir="rtl"] .cv-contact-form label {
           text-align: left; } }
@@ -2148,3 +2153,52 @@ body.theme-green .progress .bar {
   .hide-print, .cv-slogan, .cv-main-nav,
   .cv-contact-nav, .cv-contact, .cv-contact-morph, .theme-settings {
     display: none; } }
+    
+/* CSS */
+.form-send {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 10px 0px 10px auto;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  text-align: right;
+}
+
+.form-send:hover,
+.form-send:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.form-send:hover {
+  transform: translateY(-1px);
+}
+
+.form-send:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}

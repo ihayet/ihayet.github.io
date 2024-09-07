@@ -39,9 +39,21 @@
          <!-- Contact wrap -->
          <div class="cv-contact">
             <div class="wrap">
-
+               
                <!-- Contact form -->
-               <form action="" class="cv-contact-form">
+               <form id="my-form" class="cv-contact-form" action="https://formspree.io/f/xovabpye" method="POST">
+                  <h1>Hi there!</h1>
+                  
+                  <label>Email:</label>
+                  <input type="email" name="email" />
+                  <label>Message:</label>
+                  <input type="text" name="message" />
+                  <button class="form-send" id="my-form-button">Submit</button>
+                  <p id="my-form-status"></p>
+                </form>
+
+               
+               <!-- <form action="" class="cv-contact-form">
 
                   <h1>Hello!</h1>
 
@@ -59,7 +71,7 @@
                      <label for="contact-content" class="side">My message</label>
                      <textarea name="content" id="contact-content" rows="1" placeholder="Your message"></textarea>
                   </p>
-               </form>
+               </form> -->
 
                <nav class="cv-contact-nav">
                   <a href="" class="cv-contact-button active">
@@ -80,7 +92,7 @@
          <main class="cv">
             <div class="wrap">
                <nav class="cv-main-nav">
-                  <a href="#">
+                  <a href="files/Resume_Ishrak.pdf">
                      <i class="icon-cloud-download"></i>
                   </a>
                   <a href="#" class="cv-print-button">
@@ -135,12 +147,12 @@
                      </h3>
 
                      <h4>InfoSec Lab, University of Kansas</h4>
-                     <ol>
+                     <ul>
                         <li>Built a deep neural model to infer private natural language dataset from pre-trained and fine-tuned embeddings with >50% accuracy</li>
                         <li>Trained Word2Vec, GloVe, BERT embeddings and built RNN, LSTM, CNN, and Transformer models</li>
                         <li>Exercised transfer learning, domain adaptation, time-series forecasting, classification, clustering, and exploratory data analysis</li>
                         <li>Attended reading sessions on privacy-preserving machine learning, federated learning, attention networks, XAIs, and GANs</li>
-                     </ol>
+                     </ul>
                   </article>
 
                   <article class="cv-job">
@@ -152,12 +164,12 @@
                      </h3>
 
                      <h4>Porate Chai</h4>
-                     <ol>
+                     <ul>
                         <li>Implemented Java-based student-tutor matchmaking Android app; accessed by 1000+ users.</li>
                         <li>Designed application system, and matchmaking server and used local SQLite database caching to optimize loading times under 1s.</li>
                         <li>Developed a REST API-based application server using Node.js, integrated third-party payment API, and maintained app deployment</li>
                         <li>Collaborated with UX developers and other App developers to increase user retention by ~50%</li>
-                     </ol>
+                     </ul>
                   </article>
                </section>
 
@@ -258,6 +270,10 @@
                      <li>
                         <i class="icon-music-tone-alt"></i>
                         Music
+                     </li>
+                     <li>
+                        <i class="icon-cup"></i>
+                        Brewing
                      </li>
                   </ul>
                </section>
