@@ -3,113 +3,61 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{ihayet2025chatassert,
+  title={ChatAssert: LLM-based Test Oracle Generation with External Tools Assistance},
+  author={Hayet, Ishrak and Scott, Adam and d'Amorim, Marcelo},
+  journal={IEEE Transactions on Software Engineering},
+  year={2025},
+  publisher={IEEE},
+  preview={chatassert.gif},
+  abstract={Test oracle generation is an important and challenging problem. Neural-based solutions have been recently proposed for oracle generation but they are still inaccurate. For example, the accuracy of the state-of-the-art technique TECO is only 27.5% on its dataset including 3,540 test cases. We propose CHATASSERT, a prompt engineering framework designed for oracle generation that uses dynamic and static information to iteratively refine prompts for querying large language models (LLMs). CHATASSERT uses code summaries and examples to assist an LLM in generating candidate test oracles, uses a lightweight static analysis to assist the LLM in repairing generated oracles that fail to compile, and uses dynamic information obtained from test runs to help the LLM in repairing oracles that compile but do not pass. Experimental results using an independent publicly-available dataset show that CHATASSERT improves the state-of-the-art technique, TECO, on key evaluation metrics. For example, it improves Acc@1 by 15%. Overall, results provide initial yet strong evidence that using external tools in the formulation of prompts is an important aid in LLM-based oracle generation.},
+  html={""},
+  pdf={chatassert.pdf},
+  code={https://github.com/ncsu-swat/chatassert/tree/main},
+  selected={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{hayet2024feedback,
+  title={Feedback-Directed Partial Execution},
+  author={Hayet, Ishrak and Scott, Adam and d'Amorim, Marcelo},
+  booktitle={Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  pages={781--793},
+  year={2024},
+  preview={incompleter.gif},
+  abstract={Partial code execution is the problem of executing code with missing definitions. The problem has gained recent traction as solutions to the problem could enable various downstream analyses. We propose feedback-directed partial execution, a technique supported by a tool, named Incompleter, that uses the error feedback from executions to enable partial code execution. Incompleter builds on the observation that errors observed during the execution of incomplete snippets often follow similar error patterns. Incompleter takes an incomplete snippet as input and applies rules (e.g., add class, add field, add file, etc.) to resolve the successive dynamic errors it encounters during execution of the snippet. Incompleter stops when the snippet successfully executes or when it reaches certain bounds. Our results indicate that Incompleter outperforms LExecutor, the state-of-the-art in partial execution. For example, considering a dataset of 4.7K incomplete StackOverflow snippets, Incompleter enables the execution of 10% more code snippets compared to LExecutor and covers 23% more statements. We also show that Incompleter’s type inference significantly improves over LExecutor’s type inference, with a 37% higher F1 score.},
+  html={https://dl.acm.org/doi/abs/10.1145/3650212.3680320},
+  pdf={incompleter.pdf},
+  code={https://github.com/ncsu-swat/incompleter},
+  google_scholar_id={qUcmZB5y_30C},
+  selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{hayet2022invernet,
+  title={Invernet: An inversion attack framework to infer fine-tuning datasets through word embeddings},
+  author={Hayet, Ishrak and Yao, Zijun and Luo, Bo},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2022},
+  pages={5009--5018},
+  year={2022},
+  preview={invernet.gif},
+  abstract={Word embedding aims to learn the dense representation of words and has become a regular input preparation in many NLP tasks. Due to the data and computation intensive nature of learning embeddings from scratch, a more affordable way is to borrow the pretrained embedding available in public and fine-tune the embedding through a domain specific downstream dataset. A privacy concern can arise if a malicious owner of the pretrained embedding gets access to the fine-tuned embedding and tries to infer the critical information from the downstream datasets. In this study, we propose a novel embedding inversion framework called Invernet that materializes the privacy concern by inferring the context distribution in the downstream dataset, which can lead to key information breach. With extensive experimental studies on two real-world news datasets: Antonio Gulli’s News and New York Times, we validate the feasibility of proposed privacy attack and demonstrate the effectiveness of Invernet on inferring downstream datasets based on multiple word embedding methods.},
+  html={https://aclanthology.org/2022.findings-emnlp.368/},
+  pdf={invernet.pdf},
+  code={https://github.com/ihayet/Invernet},
+  google_scholar_id={0EnyYjriUFMC},
+  selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{hayet2019designing,
+  title={Designing a hierarchical keyboard layout for brain computer interface based text entry},
+  author={Hayet, Ishrak and Haq, Tanveer Fahad and Mahmud, Hasan and Hasan, Md Kamrul},
+  booktitle={2019 International Conference on Electrical, Computer and Communication Engineering (ECCE)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE},
+  preview={bci-keyboard.gif},
+  abstract={Human beings are naturally blessed with sensory and motor functionalities. These abilities help us understand our surroundings and respond accordingly. However, sometimes, due to innate reasons or trauma, some people are deprived of these functionalities. In order to restore the natural motor functionalities to people with such disabilities, Brain Computer Interface (BCI) has been widely employed with other Human Computer Interaction (HCI) measures to find an optimum solution that ensures a high speed system with reasonable accuracy. In this paper, we have explored one of such systems for Text Entry mechanism using BCI. We have addressed the following three challenges for a BCI based Text Entry system-i)Four motor imagery signal based interaction ii)Processing and classification of noisy EEG data using the available methods iii) Language prediction model to increase input speed. We have tried to contribute in designing the Keyboard Layout for the Text Entry. Existing soft keyboard layouts for BCI systems have either a flat layout or a hierarchical static layout with very few functionalities in more than 2 layers. We propose to improve the hierarchical layout using a 2 layer multi-functional approach. We have prepared a prototype solution to substantiate our hypothesis. With a cognitive walkthrough based evaluation we have validated our hierarchical layout's performance to be accurate and more functional.},
+  html={https://ieeexplore.ieee.org/abstract/document/8679487},
+  pdf={bci-keyboard.pdf},
+  google_scholar_id={Tyk-4Ss8FVUC},
+  selected={false}
 }

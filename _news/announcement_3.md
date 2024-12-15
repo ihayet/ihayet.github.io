@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-12-06 12:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+"ChatAssert: LLM-based Test Oracle Generation with External Tools Assistance" is accepted at [IEEE Transactions on Software Engineering](https://www.computer.org/csdl/journal/ts). 🎉
