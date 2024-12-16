@@ -1,24 +1,29 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Ishrak Hayet",
+    "label": "CS PhD Student @ NC State University",
+    "image": "prof_pic.png",
+    "email": "ihayet@ncsu.edu",
+    // "phone": "(912) 123-4567",
+    "url": "https://ihayet.github.io/",
+    "summary": "Third-year PhD student in Computer Science at NCSU, advised by Marcelo d'Amorim. Over 6 years of experience in software and machine learning engineering, focusing on advancing software testing methodologies and debugging tools. Research combines practical development skills with cutting-edge innovations in reliable and AI-assisted software engineering.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "3228 EB2, 890 Oval Dr.",
+      "postalCode": "NC 27695",
+      "city": "Raleigh",
       "countryCode": "US",
-      "region": "California"
+      "region": "North Carolina"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Google Scholar",
+        "username": "Ishrak Hayet",
+        "url": "https://scholar.google.com/citations?user=uHYS3V0AAAAJ&hl=en"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Ishrak Hayet",
+        "url": "https://www.linkedin.com/in/ishrakhayet/"
       }
     ]
   },
@@ -69,69 +74,62 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Natural Language Processing with Attention Models",
+      "date": "2022-11-02",
+      "issuer": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/6TNMADWWUUKW",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Natural Language Processing with Classification and Vector Spaces",
+      "date": "2020-08-09",
+      "issuer": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/53HEHHEEK7W2",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Fine Tune for BERT for Text Classification with TensorFlow",
+      "date": "2022-06-14",
+      "issuer": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/C2TKWGV5EDWL",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "MTA98-361: Software Development Fundamentals",
+      "date": "2014-12-01",
+      "issuer": "Microsoft",
+      "url": "",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "ChatAssert: LLM-based Test Oracle Generation with External Tools Assistance",
+      "publisher": "IEEE TSE",
+      "releaseDate": "2025",
+      "url": "to-be-announced",
+      "summary": "This paper proposes ChatAssert, a prompt engineering framework that can generate jUnit test oracles using large language models. ChatAssert combines a generation phase with summaries and few-shot examples, and a repair phase with static and dynamic oracle repair."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Incompleter: Feedback-directed Partial Execution",
+      "publisher": "ACM ISSTA",
+      "releaseDate": "2024",
+      "url": "https://dl.acm.org/doi/10.1145/3650212.3680320",
+      "summary": "In this paper, we propose Incompleter, a partial code execution technique that inductively mocks undefined code elements based on error feedback and eventually unmocks the mocked objects using a deductive and neural type inference. Our evaluations showed that bugs can still be found from partial code snippets if they are executed with Incompleter."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Invernet: An Inversion Attack Framework to Infer Fine-tuning Datasets through Word Embeddings",
+      "publisher": "EMNLP Findings",
+      "releaseDate": "2022",
+      "url": "https://aclanthology.org/2022.findings-emnlp.368/",
+      "summary": "We propose Invernet as an inversion model that can infer word-to-word co-occurrence statistics using the differential embeddings between a pretrained and a fine-tuned language model. We also showed that simple decoding approaches can be used to fairly reconstruct private training dataset using the inferred word-to-word co-occurrence statistics."
+    },
+    {
+      "name": "Designing a Hierarchical Keyboard Layout for Brain Computer Interface based Text Entry",
+      "publisher": "IEEE International Conference on Electrical, Computer, and Communication Engineering",
+      "releaseDate": "2019",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8679487",
+      "summary": "In this paper, we propose an accessiblity-aware text entry technique with an EEG-based input modality. Our technique combines a hierarchical motor signal classifier and a hidden markov model based text completion module that are combined in a soft keyboard layout. "
     }
   ],
   "skills": [
@@ -151,50 +149,71 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Bangla",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Conversational",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Software Reliability",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "software testing", "fuzzing", "specification mining", "oracle generation"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        
+      ]
+    },
+    {
+      "name": "Large Language Models",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        
+      ]
+    },
+    {
+      "name": "Natural Language Processing",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": ""
     },
     {
-      "name": "Professor John Doe",
+      "name": "",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": ""
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "",
+      "summary": "",
+      "highlights": ["", ""],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
     }
   ]
 }
