@@ -6,7 +6,7 @@
     "email": "ihayet@ncsu.edu",
     // "phone": "(912) 123-4567",
     "url": "https://ihayet.github.io/",
-    "summary": "Third-year PhD student in Computer Science at NCSU, advised by Marcelo d'Amorim. Over 6 years of experience in software and machine learning engineering, focusing on advancing software testing methodologies and debugging tools. Research combines practical development skills with cutting-edge innovations in reliable and AI-assisted software engineering.",
+    "summary": "Third-year PhD student in Computer Science at NCSU, advised by Marcelo d'Amorim. Over 6 years of experience in software and machine learning engineering, focusing on advancing software testing methodologies and debugging tools.",
     "location": {
       "address": "3228 EB2, 890 Oval Dr.",
       "postalCode": "NC 27695",
@@ -35,7 +35,7 @@
       "startDate": "2022-08",
       "endDate": "Present",
       "summary": "Responsible for mining and analyzing Software Engineering data from GitHub and Stack Overflow. I apply program analysis along with various Machine Learning models on the processed data to build novel techniques for ensuring software reliability. An important part of my job is to publish and present our findings to the research community to inform further innovation and development. I have worked on two NSF-funded projects which have been published in prestigious venues.",
-      "highlights": ["software testing", "software reliability", "program analysis", "debugging", "fuzzing", "deep learning", "large language models"]
+      // "highlights": ["software testing", "software reliability", "program analysis", "debugging", "fuzzing", "deep learning", "large language models"]
     },
     {
       "name": "Information Assurance Research Lab, University of Kansas",
@@ -44,7 +44,7 @@
       "startDate": "2019-08",
       "endDate": "2022-05",
       "summary": "My key responsibilities were to analyze various machine learning privacy threat models and to build a custom deep neural architecture to infer private training dataset of fine-tuned language models. I have disseminated our findings through publication in top-tiered machine learning conference. Additionally, I have regularly attending the reading group of our lab where we discussed various security and privacy issues.",
-      "highlights": ["threat modeling", "privacy attack", "fine-tuning attack", "language model inversion"]
+      // "highlights": ["threat modeling", "privacy attack", "fine-tuning attack", "language model inversion"]
     },
     {
       "name": "Porate Chai",
@@ -53,7 +53,7 @@
       "startDate": "2018-01",
       "endDate": "2019-07",
       "summary": "My job was to develop the front and backend of an Android app to facilitate a student-tutor matchmaking marketplace. I developed various Android activities like dashboard, job feed, profile, authentication, payment portal etc. Applied various cache optimizations to reduce app loading time in milliseconds.",
-      "highlights": ["android app development", "java", "node.js express", "mongodb"]
+      // "highlights": ["android app development", "java", "node.js express", "mongodb"]
     }
   ],
   "education": [
@@ -61,8 +61,8 @@
       "institution": "North Carolina State University",
       "location": "Raleigh, North Carolina",
       "url": "https://www.csc.ncsu.edu/",
-      "area": "Software Testing and Reliability",
-      "studyType": "CS PhD",
+      "area": "Computer Science",
+      "studyType": "Doctor of Philosophy",
       "startDate": "2022-08",
       "endDate": "Present"
     },
@@ -70,8 +70,8 @@
       "institution": "University of Kansas",
       "location": "Lawrence, Kansas",
       "url": "https://eecs.ku.edu/",
-      "area": "Machine Learning Privacy",
-      "studyType": "CS MS",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
       "startDate": "2019-08",
       "endDate": "2022-05"
     },
@@ -79,8 +79,8 @@
       "institution": "IUT",
       "location": "Dhaka, Bangladesh",
       "url": "https://cse.iutoic-dhaka.edu/",
-      "area": "Text Completion Model",
-      "studyType": "CS BS",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Science",
       "startDate": "2014-01",
       "endDate": "2017-12"
     }
@@ -91,7 +91,7 @@
       "date": "2024-09-01",
       "awarder": "ACM SIGSOFT",
       "url": "https://www2.sigsoft.org/caps/capsmain/",
-      "summary": "This award partially supported my travel to present our paper at ACM ISSTA 2024."
+      "summary": "This award partially supported my travel to present our paper at ACM ISSTA 2024 in Vienna, Austria."
     },
     {
       "title": "Distinguished Teaching Assistant",
@@ -110,7 +110,7 @@
     {
       "title": "OIC Scholarship",
       "date": "2014-01-01",
-      "awarder": "Organization of Islamic Cooperatoin",
+      "awarder": "Organization of Islamic Cooperation",
       "url": "https://scholarship.oic-oci.org/university/21",
       "summary": "This international scholarship fully covered my undergraduate tuition, lodging, and monthly stipends."
     },
@@ -119,19 +119,19 @@
       "date": "2009-04-01",
       "awarder": "ECA, US Department of State",
       "url": "https://www.tigurl.org/images/resources/tool/docs/1431.pdf",
-      "summary": "I was awarded this scholarship to conduct high school STEM research on a Bangladeshi river and to present our findings at the YouthCaN 2009 conference."
+      "summary": "I was awarded this scholarship to conduct high school STEM research on a Bangladeshi river and to present our findings at the YouthCaN 2009 conference in New York City."
     }
   ],
   "certificates": [
     {
-      "name": "NLP with Attention Models",
+      "name": "Attention Models",
       "date": "2022-11-02",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/certificate/6TNMADWWUUKW",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "NLP with Classification and Vector Spaces",
+      "name": "Classification and Vector Spaces",
       "date": "2020-08-09",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/certificate/53HEHHEEK7W2",
@@ -145,7 +145,7 @@
       "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "MTA98-361: SDE Fundamentals",
+      "name": "SDE Fundamentals",
       "date": "2014-12-01",
       "issuer": "Microsoft",
       "url": "",
@@ -214,7 +214,7 @@
       "name": "Software Reliability",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "software testing", "fuzzing", "specification mining", "oracle generation"
+        // "software testing", "fuzzing", "specification mining", "oracle generation"
       ]
     },
     {
@@ -239,25 +239,37 @@
       ]
     }
   ],
-  "volunteer": [
+  "extra curricular": [
     {
-      "organization": "",
-      "location": "",
-      "position": "",
-      "url": "",
-      "startDate": "",
+      "organization": "Computer Society, IUT",
+      "location": "Dhaka, Bangladesh",
+      "position": "Head of Mobile App Dev Contest",
+      "url": "https://www.facebook.com/media/set/?set=a.778282662358248&s=15&_rdr",
+      "startDate": "2017-10",
       "endDate": "",
-      "summary": "",
+      "summary": "I was responsible for organizing and coordinating the activities for mobile app development contest at one of the largest national ICT competitions held at IUT.",
       "highlights": []
     },
     {
-      "organization": "",
-      "location": "",
-      "position": "",
-      "url": "",
+      "organization": "Mars Rover Project, IUT",
+      "location": "Dhaka, Bangladesh",
+      "position": "Head of Software Systems",
+      "url": "https://www.facebook.com/media/set/?set=a.778282662358248&s=15&_rdr",
+      "startDate": "2017-01",
+      "endDate": "2017-12",
+      "summary": "I led the software team for the IUT Mars Rover project which ran successful campaigns at various international rover competitions. Our team developed the navigation, motor control, and communication software for a life-sized mars rover robot.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "St. Joseph Higher Secondary School",
+      "location": "Dhaka, Bangladesh",
+      "position": "Tutor",
+      "url": "https://stjhs2.wordpress.com/",
       "startDate": "",
       "endDate": "",
-      "summary": "",
+      "summary": "Teaching various subjects to underprivileged children after regular school hours.",
       "highlights": []
     }
   ],
