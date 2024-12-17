@@ -35,7 +35,7 @@
       "startDate": "2022-08",
       "endDate": "Present",
       "summary": "Responsible for mining and analyzing Software Engineering data from GitHub and Stack Overflow. I apply program analysis along with various Machine Learning models on the processed data to build novel techniques for ensuring software reliability. An important part of my job is to publish and present our findings to the research community to inform further innovation and development. I have worked on two NSF-funded projects which have been published in prestigious venues.",
-      // "highlights": ["software testing", "software reliability", "program analysis", "debugging", "fuzzing", "deep learning", "large language models"]
+      "highlights": []
     },
     {
       "name": "Information Assurance Research Lab, University of Kansas",
@@ -44,7 +44,7 @@
       "startDate": "2019-08",
       "endDate": "2022-05",
       "summary": "My key responsibilities were to analyze various machine learning privacy threat models and to build a custom deep neural architecture to infer private training dataset of fine-tuned language models. I have disseminated our findings through publication in top-tiered machine learning conference. Additionally, I have regularly attending the reading group of our lab where we discussed various security and privacy issues.",
-      // "highlights": ["threat modeling", "privacy attack", "fine-tuning attack", "language model inversion"]
+      "highlights": []
     },
     {
       "name": "Porate Chai",
@@ -53,7 +53,7 @@
       "startDate": "2018-01",
       "endDate": "2019-07",
       "summary": "My job was to develop the front and backend of an Android app to facilitate a student-tutor matchmaking marketplace. I developed various Android activities like dashboard, job feed, profile, authentication, payment portal etc. Applied various cache optimizations to reduce app loading time in milliseconds.",
-      // "highlights": ["android app development", "java", "node.js express", "mongodb"]
+      "highlights": []
     }
   ],
   "education": [
@@ -103,7 +103,7 @@
     {
       "title": "Registration Scholarship",
       "date": "2021-11-08",
-      "awarder": "Asia Conference on Machine Learning (ACML)",
+      "awarder": "Asian Conference on Machine Learning (ACML)",
       "url": "https://www.acml-conf.org/2021/school/",
       "summary": "I was awarded free registration to attend the Online Asia Machine Learning School (OAMLS) conference."
     },
@@ -214,7 +214,7 @@
       "name": "Software Reliability",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        // "software testing", "fuzzing", "specification mining", "oracle generation"
+        
       ]
     },
     {
