@@ -125,28 +125,28 @@
   "certificates": [
     {
       "name": "Attention Models",
-      "date": "2022-11-02",
+      "date": "2022-11",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/certificate/6TNMADWWUUKW",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Classification and Vector Spaces",
-      "date": "2020-08-09",
+      "name": "Vector Spaces",
+      "date": "2020-08",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/certificate/53HEHHEEK7W2",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
       "name": "Fine-tuning BERT",
-      "date": "2022-06-14",
+      "date": "2022-06",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/certificate/C2TKWGV5EDWL",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
       "name": "SDE Fundamentals",
-      "date": "2014-12-01",
+      "date": "2014-12",
       "issuer": "Microsoft",
       "url": "",
       "icon": "fa-solid fa-clipboard-check"
@@ -267,20 +267,20 @@
       "location": "Dhaka, Bangladesh",
       "position": "Tutor",
       "url": "https://stjhs2.wordpress.com/",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2008-01",
+      "endDate": "2010-12",
       "summary": "Teaching various subjects to underprivileged children after regular school hours.",
       "highlights": []
     }
-  ],
-  "projects": [
-    {
-      "name": "",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "",
-      "endDate": "",
-      "url": ""
-    }
   ]
+  // "projects": [
+  //   {
+  //     "name": "",
+  //     "summary": "",
+  //     "highlights": ["", ""],
+  //     "startDate": "",
+  //     "endDate": "",
+  //     "url": ""
+  //   }
+  // ]
 }
