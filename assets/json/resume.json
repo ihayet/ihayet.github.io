@@ -255,7 +255,7 @@
       ]
     }
   ],
-  "extra curricular": [
+  "volunteer": [
     {
       "organization": "Computer Society, IUT",
       "location": "Dhaka, Bangladesh",
@@ -275,9 +275,7 @@
       "endDate": "2017-12",
       "summary": "I led the software team for the IUT Mars Rover project which ran successful campaigns at various international rover competitions. Our team developed the navigation, motor control, and communication software for a life-sized mars rover robot.",
       "highlights": []
-    }
-  ],
-  "volunteer": [
+    },
     {
       "organization": "St. Joseph Higher Secondary School",
       "location": "Dhaka, Bangladesh",
