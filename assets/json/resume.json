@@ -29,7 +29,7 @@
   },
   "work": [
     {
-      "name": "SDE Research Lab, NC State University",
+      "name": "Software Testing Research Lab, NC State University",
       "position": "Graduate Research and Teaching Assistant",
       "url": "https://ncsu.software/",
       "startDate": "2022-08",
@@ -47,7 +47,7 @@
       "highlights": []
     },
     {
-      "name": "Porate Chai",
+      "name": "Porate Chai EdTech",
       "position": "Software Developer",
       "url": "",
       "startDate": "2018-01",
@@ -182,16 +182,32 @@
       "summary": "In this paper, we propose an accessiblity-aware text entry technique with an EEG-based input modality. Our technique combines a hierarchical motor signal classifier and a hidden markov model based text completion module that are combined in a soft keyboard layout. "
     }
   ],
-  "skills": [
-    {
-      "name": "",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
+  // "skills": [
+  //   {
+  //     "name": "Programming Languages",
+  //     "level": "",
+  //     "icon": "fa-solid fa-hashtag",
+  //     "keywords": [
+  //       "Java", "Python", "C/C++", "JavaScript", "Rust"
+  //     ]
+  //   },
+  //   {
+  //     "name": "Machine Learning",
+  //     "level": "",
+  //     "icon": "fa-solid fa-hashtag",
+  //     "keywords": [
+  //       "PyTorch", "TensorFlow"
+  //     ]
+  //   },
+  //   {
+  //     "name": "",
+  //     "level": "Master",
+  //     "icon": "fa-solid fa-hashtag",
+  //     "keywords": [
         
-      ]
-    }
-  ],
+  //     ]
+  //   }
+  // ],
   "languages": [
     {
       "language": "English",
