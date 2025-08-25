@@ -6,7 +6,7 @@
     "email": "ihayet@ncsu.edu",
     // "phone": "(912) 123-4567",
     "url": "https://ihayet.github.io/",
-    "summary": "Third-year PhD student in Computer Science at NCSU, advised by Marcelo d'Amorim. Over 6 years of experience in software and machine learning engineering, focusing on advancing software testing methodologies and debugging tools.",
+    "summary": "Fourth-year CS PhD Student at North Carolina State University. Advised by Prof. Marcelo d'Amorim. Current research focus is on applying ML/AI/LLM techniques for code/test generation/completion, building benchmarks, and rigorous empirical evaluation of agentic systems using industry-standard metrics.\n\nEarned CS MS degree from the University of Kansas under the co-supervision of Dr. Bo Luo and Dr. Zijun Yao. Former member of the KU InfoSec lab (now known as HASSC lab). The research focus was to find a threat model related to the training data privacy of fine-tuned language models.\n\nPassionate about and experienced in innovative applications of Machine Learning and Artificial Intelligence across a wide range of application areas, including but not limited to code generation, code completion, privacy exposure, brain signal classification, and text completion. Experienced with data collection, cleaning, and curation for training, fine-tuning, and evaluating large-scale optimization problems. Have strong foundations of machine learning, deep learning, statistical models, supervised and unsupervised learning methods, and hypothesis testing. Proficient in object-oriented programming in Python and Java. Extremely efficient in collaborating with generative AI models and agents with manual validation for solving everyday tasks 10x faster.",
     "location": {
       "address": "3228 EB2, 890 Oval Dr.",
       "postalCode": "NC 27695",
@@ -29,12 +29,12 @@
   },
   "work": [
     {
-      "name": "Software Testing Research Lab, NC State University",
-      "position": "Graduate Research and Teaching Assistant",
+      "name": "Software Engineering Research Lab, NC State University",
+      "position": "Graduate Student Researcher",
       "url": "https://ncsu.software/",
       "startDate": "2022-08",
       "endDate": "Present",
-      "summary": "Responsible for mining and analyzing Software Engineering data from GitHub and Stack Overflow. I apply program analysis along with various Machine Learning models on the processed data to build novel techniques for ensuring software reliability. An important part of my job is to publish and present our findings to the research community to inform further innovation and development. I have worked on two NSF-funded projects which have been published in prestigious venues.",
+      "summary": "1. Collecting and preprocessing custom datasets.\n2. Training/fine-tuning ML/AI/LLM models using curated datasets for specialized downstream tasks.\n3. Rigorously and empirically evaluating model/system outputs using industry-standard metrics.\n4. Built a code completion technique using feedback-directed mock generation and neural type inference, achieving 80 % code coverage.\n5. Developed a prompt engineering framework to generate and repair JUnit test oracles using LLMs, beating SoTA accuracy by more than 10 %.",
       "highlights": []
     },
     {
@@ -43,7 +43,7 @@
       "url": "https://i2s-research.ku.edu/hassc",
       "startDate": "2019-08",
       "endDate": "2022-05",
-      "summary": "My key responsibilities were to analyze various machine learning privacy threat models and to build a custom deep neural architecture to infer private training dataset of fine-tuned language models. I have disseminated our findings through publication in top-tiered machine learning conference. Additionally, I have regularly attending the reading group of our lab where we discussed various security and privacy issues.",
+      "summary": "1. Built a deep neural model to infer private natural language datasets from pre-trained and fine-tuned embeddings with 70 % accuracy.\n2. Trained Word2Vec, GloVe, and BERT vectors and built LSTM, CNN, and Transformer models for datasets with 20K samples.\n3. Conducted research on information security and privacy of natural language embedding models.\n4. Accepted Paul F. Huebner Memorial Award for becoming an outstanding GTA.\n5. Designed and conducted labs on Operating Systems topics using C on Linux.",
       "highlights": []
     },
     {
@@ -52,7 +52,7 @@
       "url": "",
       "startDate": "2018-01",
       "endDate": "2019-07",
-      "summary": "My job was to develop the front and backend of an Android app to facilitate a student-tutor matchmaking marketplace. I developed various Android activities like dashboard, job feed, profile, authentication, payment portal etc. Applied various cache optimizations to reduce app loading time in milliseconds.",
+      "summary": "1. Implemented a matchmaking Android app with a RESTful Node.js application server; accessed by 50K users\n2. Designed application system, matchmaking server, and used local SQLite database caching to optimize loading times to less than 1ms",
       "highlights": []
     }
   ],
@@ -227,7 +227,7 @@
   ],
   "interests": [
     {
-      "name": "Software Reliability",
+      "name": "Agent Development",
       "icon": "fa-solid fa-tag",
       "keywords": [
         
@@ -249,6 +249,13 @@
     },
     {
       "name": "Natural Language Processing",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        
+      ]
+    },
+    {
+      "name": "AI Engineering",
       "icon": "fa-solid fa-tag",
       "keywords": [
         
