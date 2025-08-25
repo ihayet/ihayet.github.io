@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ncsu.software/'>CS PhD Student @ NCSU | AI-assisted Software Reliability Research</a>
+subtitle: <a href='https://ncsu.software/'>CS PhD Student @ NCSU | Applied Machine Learning Research and Development</a>
 
 profile:
   align: right
@@ -18,10 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a third-year CS PhD Student at North Carolina State University. I am advised by [Marcelo d'Amorim](https://damorim.github.io/). My research focus is on `Software Testing and Analysis`. The goal of my research is to use program analysis along with Machine Learning models to develop techniques for reliable software development, testing, and debugging.
+Fourth-year CS PhD Student at North Carolina State University. Advised by [Marcelo d'Amorim](https://damorim.github.io/). Current research focus is on applying ML/AI/LLM techniques for code/test generation/completion, building benchmarks, and rigorous empirical evaluation of agentic systems using industry-standard metrics.
 
-I earned my CS MS degree from the University of Kansas under the supervision of [Dr. Bo Luo](https://www.ittc.ku.edu/~bluo/) and [Dr. Zijun Yao](https://www.ittc.ku.edu/~zyao/). During my Master's, I was part of the [InfoSec lab (now known as HASSC lab)](https://i2s-research.ku.edu/hassc) where my research focus was to find a threat model related to the training data privacy of fine-tuned language models.
+Earned CS MS degree from the University of Kansas under the co-supervision of [Dr. Bo Luo](https://www.ittc.ku.edu/~bluo/) and [Dr. Zijun Yao](https://www.ittc.ku.edu/~zyao/). Former member of the [InfoSec lab (now known as HASSC lab)](https://i2s-research.ku.edu/hassc). Research focus was to find a threat model related to the training data privacy of fine-tuned language models.
 
-`I am actively looking for a Summer 2025 internship. Please feel free to reach out via email regarding openings.`
+Passionate about and experienced in innovative applications of Machine Learning and Artificial Intelligence across a wide range of application areas *including but not limited to* [code generation](https://ieeexplore.ieee.org/document/10804561), [code completion](https://dl.acm.org/doi/10.1145/3650212.3680320), [privacy exposure](https://aclanthology.org/2022.findings-emnlp.368.pdf), [brain signal classification, and text completion](https://ieeexplore.ieee.org/document/8679487). Experienced with data collection, cleaning, and curation for training, fine-tuning, and evaluating large-scale optimization problems. Have strong foundations of machine learning, deep learning, statistical models, supervised and unsupervised learning methods, and hypothesis testing. Proficient in object-oriented programming in Python and Java. Extremely efficient in collaborating with generative AI models and agents with manual validation for solving everyday tasks 10x faster.
+
+`Looking for 2026 opportunities. Feel free to reach out.`
 
 
