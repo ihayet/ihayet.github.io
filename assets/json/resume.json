@@ -29,6 +29,15 @@
   },
   "work": [
     {
+      "name": "AI for Code Lab, IBM Research, Yorktown Heights",
+      "position": "Research Scientist Intern",
+      "url": "https://research.ibm.com/topics/ai-for-code",
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "summary": "1. Development of Software Engineering Agents via program analysis, knowledge graph, symbolic reasoning, and constrained generation. \n2. Evaluating software agents on patch validation, automated program repair using SWEBench, SWEBench-Verified, etc. benchmarks.",
+      "highlights": []
+    },
+    {
       "name": "Software Engineering Research Lab, NC State University",
       "position": "Graduate Student Researcher",
       "url": "https://ncsu.software/",
